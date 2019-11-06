@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HBSwiftMacro_Example' do
+  pod 'HBSwiftMacro', :path => '../'
+
+  target 'HBSwiftMacro_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
