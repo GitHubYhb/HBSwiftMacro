@@ -47,7 +47,7 @@ public extension UIColor {
 }
 
 
-extension String {
+public extension String {
     
     /**
      Get the height with font.
@@ -94,7 +94,7 @@ extension String {
     }
 }
 
-extension UIView {
+public extension UIView {
     var width:CGFloat {
         get {
             return self.frame.size.width
