@@ -70,7 +70,7 @@ extension String {
         
         return rect.size.height
     }
-   
+    
     
     /**
      Get the width with the string.
@@ -115,6 +115,38 @@ extension UIView {
     var y:CGFloat {
         get {
             return self.frame.origin.y
+        }
+    }
+    
+    var minY:CGFloat {
+        get {
+            return self.frame.minY
+        }
+    }
+    var midY:CGFloat {
+        get {
+            return self.frame.midY
+        }
+    }
+    var maxY:CGFloat {
+        get {
+            return self.frame.maxY
+        }
+    }
+    
+    var minX:CGFloat {
+        get {
+            return self.frame.minX
+        }
+    }
+    var midX:CGFloat {
+        get {
+            return self.frame.midX
+        }
+    }
+    var maxX:CGFloat {
+        get {
+            return self.frame.maxX
         }
     }
 }
