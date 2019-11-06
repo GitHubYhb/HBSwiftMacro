@@ -17,7 +17,7 @@
 		BC8F8B3F250CBCF531E0E2BA3B13D709 /* Pods-HBSwiftMacro_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3956B310EDC6338586551D69205ECFEB /* Pods-HBSwiftMacro_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C5FF85C9E012C905E89C0A04737D960A /* HBSwiftMacro-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9AB7C6759BEB3D75B0CBAB116CAB59 /* HBSwiftMacro-dummy.m */; };
 		D01E75582372A26000569901 /* HBMacros.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E75572372A26000569901 /* HBMacros.swift */; };
-		D01E75622372AA3F00569901 /* HBExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E75612372AA3F00569901 /* HBExtensions.swift */; };
+		D01E75702372C3FF00569901 /* HBExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E756F2372C3FF00569901 /* HBExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,7 +66,7 @@
 		B8D3583656FC695E8685C07A2DD9B9F4 /* Pods-HBSwiftMacro_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HBSwiftMacro_Example.modulemap"; sourceTree = "<group>"; };
 		CFBE440FCD878795F58E2EAEC239BC08 /* Pods-HBSwiftMacro_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBSwiftMacro_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D01E75572372A26000569901 /* HBMacros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HBMacros.swift; path = HBSwiftMacro/Classes/HBMacros.swift; sourceTree = "<group>"; };
-		D01E75612372AA3F00569901 /* HBExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBExtensions.swift; sourceTree = "<group>"; };
+		D01E756F2372C3FF00569901 /* HBExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HBExtensions.swift; path = HBSwiftMacro/Classes/HBExtensions.swift; sourceTree = "<group>"; };
 		E2DFA4BACEF5D34650959C000017EAF2 /* HBSwiftMacro-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HBSwiftMacro-umbrella.h"; sourceTree = "<group>"; };
 		F36B818CEB10A987E4DE87443CEF4413 /* Pods-HBSwiftMacro_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HBSwiftMacro_Example-dummy.m"; sourceTree = "<group>"; };
 		F40F69213C5CA70CE65A7B6A4D2F7A8A /* HBSwiftMacro.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HBSwiftMacro.modulemap; sourceTree = "<group>"; };
@@ -140,7 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				D01E75572372A26000569901 /* HBMacros.swift */,
-				D01E75612372AA3F00569901 /* HBExtensions.swift */,
+				D01E756F2372C3FF00569901 /* HBExtensions.swift */,
 				0B70B0A8DCD9F72E4E7AD8C57BCEA691 /* Pod */,
 				DBCD6538D67CD980660E703AC9093095 /* Support Files */,
 			);
@@ -377,7 +377,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5FF85C9E012C905E89C0A04737D960A /* HBSwiftMacro-dummy.m in Sources */,
-				D01E75622372AA3F00569901 /* HBExtensions.swift in Sources */,
+				D01E75702372C3FF00569901 /* HBExtensions.swift in Sources */,
 				D01E75582372A26000569901 /* HBMacros.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
