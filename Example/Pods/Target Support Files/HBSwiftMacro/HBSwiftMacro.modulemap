@@ -1,0 +1,6 @@
+framework module HBSwiftMacro {
+  umbrella header "HBSwiftMacro-umbrella.h"
+
+  export *
+  module * { export * }
+}

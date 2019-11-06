@@ -1,0 +1,16 @@
+PODS:
+  - HBSwiftMacro (0.1.0)
+
+DEPENDENCIES:
+  - HBSwiftMacro (from `../`)
+
+EXTERNAL SOURCES:
+  HBSwiftMacro:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HBSwiftMacro: 9168fe784486c01dcc1fc5adaa63e6aa9cb25b5a
+
+PODFILE CHECKSUM: 07a5d61524d0518499b09938a86bde8c8b7559d6
+
+COCOAPODS: 1.8.4

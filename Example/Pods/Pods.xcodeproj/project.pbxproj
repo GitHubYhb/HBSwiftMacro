@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11119FB8997899FF2ABAE47CE9B84610 /* Pods-HBSwiftMacro_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5239110F75AF7E5E580D5439BD8FA0FE /* Pods-HBSwiftMacro_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FDCA9F8726CD9B2D3E7B56F7A44A26A /* Pods-HBSwiftMacro_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F36B818CEB10A987E4DE87443CEF4413 /* Pods-HBSwiftMacro_Example-dummy.m */; };
+		62F1BB0F66CF38E875257A4EFFD14C7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		89AC11B95F986E50B4583C5C519C1154 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		AC86E0AD75426342B89F1A3840CFC202 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B44BB7A2245B973962BE6834E32A355B /* Pods-HBSwiftMacro_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9E898EBE53D84F8796B6B25B377852 /* Pods-HBSwiftMacro_Tests-dummy.m */; };
+		B8D077BE168C4CF9C112D8DD1EDFF482 /* HBSwiftMacro-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E2DFA4BACEF5D34650959C000017EAF2 /* HBSwiftMacro-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC8F8B3F250CBCF531E0E2BA3B13D709 /* Pods-HBSwiftMacro_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3956B310EDC6338586551D69205ECFEB /* Pods-HBSwiftMacro_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5FF85C9E012C905E89C0A04737D960A /* HBSwiftMacro-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9AB7C6759BEB3D75B0CBAB116CAB59 /* HBSwiftMacro-dummy.m */; };
+		D01E75582372A26000569901 /* HBMacros.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E75572372A26000569901 /* HBMacros.swift */; };
+		D01E75622372AA3F00569901 /* HBExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E75612372AA3F00569901 /* HBExtensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43D224AC278D138D02659BA136E25FC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF54315EE4853D7FFC0974C1573DD3A3;
+			remoteInfo = HBSwiftMacro;
+		};
+		994C7C7D06B30E6C8CE5470F0AD2C52A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 636D65FC03C112EC690BC623D58D7B17;
+			remoteInfo = "Pods-HBSwiftMacro_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BF7130C486CD0E2FE26C2BB5E6295CA /* HBSwiftMacro-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HBSwiftMacro-prefix.pch"; sourceTree = "<group>"; };
+		0C9E898EBE53D84F8796B6B25B377852 /* Pods-HBSwiftMacro_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HBSwiftMacro_Tests-dummy.m"; sourceTree = "<group>"; };
+		0CDAFF06800974000891BD7D43131D6A /* Pods-HBSwiftMacro_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HBSwiftMacro_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		12D27BF62DBCF63696920366BBA19693 /* Pods-HBSwiftMacro_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HBSwiftMacro_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		148AADA4DD2EF700ED332E70E089C1DE /* Pods-HBSwiftMacro_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HBSwiftMacro_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1632AD214233563C63B4FF06D4FE224B /* Pods-HBSwiftMacro_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBSwiftMacro_Example.release.xcconfig"; sourceTree = "<group>"; };
+		23D8A4F0326688271B3DD818DEA00927 /* Pods-HBSwiftMacro_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HBSwiftMacro_Example-Info.plist"; sourceTree = "<group>"; };
+		2FD97941EAF044BA44C6F253133A3986 /* Pods-HBSwiftMacro_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBSwiftMacro_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3956B310EDC6338586551D69205ECFEB /* Pods-HBSwiftMacro_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HBSwiftMacro_Tests-umbrella.h"; sourceTree = "<group>"; };
+		40575581B8D37A30CB61ED9D6E59FAF2 /* Pods_HBSwiftMacro_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HBSwiftMacro_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		453D33C6D65F2762A15B556B7B475154 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		5239110F75AF7E5E580D5439BD8FA0FE /* Pods-HBSwiftMacro_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HBSwiftMacro_Example-umbrella.h"; sourceTree = "<group>"; };
+		5421D10D5C1A240DFD1DB40070544E8D /* Pods-HBSwiftMacro_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBSwiftMacro_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6DB71335CE705E7877616DC6127D7C4E /* Pods-HBSwiftMacro_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HBSwiftMacro_Tests.modulemap"; sourceTree = "<group>"; };
+		71E99D6372DC016E4E9AD1B910D90334 /* Pods-HBSwiftMacro_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HBSwiftMacro_Example-frameworks.sh"; sourceTree = "<group>"; };
+		7A9AB7C6759BEB3D75B0CBAB116CAB59 /* HBSwiftMacro-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HBSwiftMacro-dummy.m"; sourceTree = "<group>"; };
+		7DC4F13D5FFF360B418634B4B91D2B47 /* HBSwiftMacro-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HBSwiftMacro-Info.plist"; sourceTree = "<group>"; };
+		8BFA0AB14B0419992F7290621178C953 /* Pods-HBSwiftMacro_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HBSwiftMacro_Tests-Info.plist"; sourceTree = "<group>"; };
+		93141D998F21AE6979FE50BCD18F164D /* Pods-HBSwiftMacro_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HBSwiftMacro_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9BE0B38ECCCB374F9BCB4BD38ACA43A2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1EF5F884F575E7A9AF2DAB566A6EF3F /* Pods_HBSwiftMacro_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HBSwiftMacro_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A55AA407AB1B909F9550F8B890CEB159 /* HBSwiftMacro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HBSwiftMacro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B01F101C8F52D78D4368F4A00A747204 /* HBSwiftMacro.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HBSwiftMacro.xcconfig; sourceTree = "<group>"; };
+		B8D3583656FC695E8685C07A2DD9B9F4 /* Pods-HBSwiftMacro_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HBSwiftMacro_Example.modulemap"; sourceTree = "<group>"; };
+		CFBE440FCD878795F58E2EAEC239BC08 /* Pods-HBSwiftMacro_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBSwiftMacro_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D01E75572372A26000569901 /* HBMacros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HBMacros.swift; path = HBSwiftMacro/Classes/HBMacros.swift; sourceTree = "<group>"; };
+		D01E75612372AA3F00569901 /* HBExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBExtensions.swift; sourceTree = "<group>"; };
+		E2DFA4BACEF5D34650959C000017EAF2 /* HBSwiftMacro-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HBSwiftMacro-umbrella.h"; sourceTree = "<group>"; };
+		F36B818CEB10A987E4DE87443CEF4413 /* Pods-HBSwiftMacro_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HBSwiftMacro_Example-dummy.m"; sourceTree = "<group>"; };
+		F40F69213C5CA70CE65A7B6A4D2F7A8A /* HBSwiftMacro.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HBSwiftMacro.modulemap; sourceTree = "<group>"; };
+		FC76D686AF16F46983A604467A917238 /* HBSwiftMacro.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HBSwiftMacro.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		174290D9661E87AD2CAD3A4DFA87D427 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62F1BB0F66CF38E875257A4EFFD14C7C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6549BA76DF9F7FB42F8FB2AB662996AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89AC11B95F986E50B4583C5C519C1154 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44D0179232A0A59864B993EF865F078 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC86E0AD75426342B89F1A3840CFC202 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07492A17AA06BA75B0432FB00DAABD6A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				143F740199AF633DE982F7B515E502F1 /* HBSwiftMacro */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		0B69BD8032E4C0228213FD5356EA303B /* Pods-HBSwiftMacro_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B8D3583656FC695E8685C07A2DD9B9F4 /* Pods-HBSwiftMacro_Example.modulemap */,
+				0CDAFF06800974000891BD7D43131D6A /* Pods-HBSwiftMacro_Example-acknowledgements.markdown */,
+				148AADA4DD2EF700ED332E70E089C1DE /* Pods-HBSwiftMacro_Example-acknowledgements.plist */,
+				F36B818CEB10A987E4DE87443CEF4413 /* Pods-HBSwiftMacro_Example-dummy.m */,
+				71E99D6372DC016E4E9AD1B910D90334 /* Pods-HBSwiftMacro_Example-frameworks.sh */,
+				23D8A4F0326688271B3DD818DEA00927 /* Pods-HBSwiftMacro_Example-Info.plist */,
+				5239110F75AF7E5E580D5439BD8FA0FE /* Pods-HBSwiftMacro_Example-umbrella.h */,
+				CFBE440FCD878795F58E2EAEC239BC08 /* Pods-HBSwiftMacro_Example.debug.xcconfig */,
+				1632AD214233563C63B4FF06D4FE224B /* Pods-HBSwiftMacro_Example.release.xcconfig */,
+			);
+			name = "Pods-HBSwiftMacro_Example";
+			path = "Target Support Files/Pods-HBSwiftMacro_Example";
+			sourceTree = "<group>";
+		};
+		0B70B0A8DCD9F72E4E7AD8C57BCEA691 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FC76D686AF16F46983A604467A917238 /* HBSwiftMacro.podspec */,
+				453D33C6D65F2762A15B556B7B475154 /* LICENSE */,
+				9BE0B38ECCCB374F9BCB4BD38ACA43A2 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		143F740199AF633DE982F7B515E502F1 /* HBSwiftMacro */ = {
+			isa = PBXGroup;
+			children = (
+				D01E75572372A26000569901 /* HBMacros.swift */,
+				D01E75612372AA3F00569901 /* HBExtensions.swift */,
+				0B70B0A8DCD9F72E4E7AD8C57BCEA691 /* Pod */,
+				DBCD6538D67CD980660E703AC9093095 /* Support Files */,
+			);
+			name = HBSwiftMacro;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		646049660DE7ECFD158F938110CB6193 /* Pods-HBSwiftMacro_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6DB71335CE705E7877616DC6127D7C4E /* Pods-HBSwiftMacro_Tests.modulemap */,
+				12D27BF62DBCF63696920366BBA19693 /* Pods-HBSwiftMacro_Tests-acknowledgements.markdown */,
+				93141D998F21AE6979FE50BCD18F164D /* Pods-HBSwiftMacro_Tests-acknowledgements.plist */,
+				0C9E898EBE53D84F8796B6B25B377852 /* Pods-HBSwiftMacro_Tests-dummy.m */,
+				8BFA0AB14B0419992F7290621178C953 /* Pods-HBSwiftMacro_Tests-Info.plist */,
+				3956B310EDC6338586551D69205ECFEB /* Pods-HBSwiftMacro_Tests-umbrella.h */,
+				5421D10D5C1A240DFD1DB40070544E8D /* Pods-HBSwiftMacro_Tests.debug.xcconfig */,
+				2FD97941EAF044BA44C6F253133A3986 /* Pods-HBSwiftMacro_Tests.release.xcconfig */,
+			);
+			name = "Pods-HBSwiftMacro_Tests";
+			path = "Target Support Files/Pods-HBSwiftMacro_Tests";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				07492A17AA06BA75B0432FB00DAABD6A /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				FE94181FEC68D1C273462413E2C9210A /* Products */,
+				D3077D3C7BC9360D7EA0C8839EBA9DAD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3077D3C7BC9360D7EA0C8839EBA9DAD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B69BD8032E4C0228213FD5356EA303B /* Pods-HBSwiftMacro_Example */,
+				646049660DE7ECFD158F938110CB6193 /* Pods-HBSwiftMacro_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DBCD6538D67CD980660E703AC9093095 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F40F69213C5CA70CE65A7B6A4D2F7A8A /* HBSwiftMacro.modulemap */,
+				B01F101C8F52D78D4368F4A00A747204 /* HBSwiftMacro.xcconfig */,
+				7A9AB7C6759BEB3D75B0CBAB116CAB59 /* HBSwiftMacro-dummy.m */,
+				7DC4F13D5FFF360B418634B4B91D2B47 /* HBSwiftMacro-Info.plist */,
+				0BF7130C486CD0E2FE26C2BB5E6295CA /* HBSwiftMacro-prefix.pch */,
+				E2DFA4BACEF5D34650959C000017EAF2 /* HBSwiftMacro-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HBSwiftMacro";
+			sourceTree = "<group>";
+		};
+		FE94181FEC68D1C273462413E2C9210A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A55AA407AB1B909F9550F8B890CEB159 /* HBSwiftMacro.framework */,
+				40575581B8D37A30CB61ED9D6E59FAF2 /* Pods_HBSwiftMacro_Example.framework */,
+				A1EF5F884F575E7A9AF2DAB566A6EF3F /* Pods_HBSwiftMacro_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D4405FF4EE877A9C95812D4DFFE2A9DE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11119FB8997899FF2ABAE47CE9B84610 /* Pods-HBSwiftMacro_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D65195AF2F8E06BB07711987157B2B45 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8D077BE168C4CF9C112D8DD1EDFF482 /* HBSwiftMacro-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F514050460FFECB97D50097DCB1EF976 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC8F8B3F250CBCF531E0E2BA3B13D709 /* Pods-HBSwiftMacro_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		636D65FC03C112EC690BC623D58D7B17 /* Pods-HBSwiftMacro_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDD6FD7895A45F2C71DB028694ABFD8C /* Build configuration list for PBXNativeTarget "Pods-HBSwiftMacro_Example" */;
+			buildPhases = (
+				D4405FF4EE877A9C95812D4DFFE2A9DE /* Headers */,
+				F016A5297963BCE4CB4DEC5330415A43 /* Sources */,
+				F44D0179232A0A59864B993EF865F078 /* Frameworks */,
+				81B8B6E3F50C4D5C063638BBB71BF5F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94889086194F394212615DD86D5EB2E3 /* PBXTargetDependency */,
+			);
+			name = "Pods-HBSwiftMacro_Example";
+			productName = "Pods-HBSwiftMacro_Example";
+			productReference = 40575581B8D37A30CB61ED9D6E59FAF2 /* Pods_HBSwiftMacro_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		73A05578EAAAEE2B67936E4817DA1DBF /* Pods-HBSwiftMacro_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 735F247205FFAC7CED7597A3E6BE7025 /* Build configuration list for PBXNativeTarget "Pods-HBSwiftMacro_Tests" */;
+			buildPhases = (
+				F514050460FFECB97D50097DCB1EF976 /* Headers */,
+				9466EA3BB9ED21B00719FA8B60BD7CC0 /* Sources */,
+				6549BA76DF9F7FB42F8FB2AB662996AD /* Frameworks */,
+				51054119E0341EC0EAC085109EE71D3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C5BE5B70EA5F0D8E6E62D08C1FA01CA /* PBXTargetDependency */,
+			);
+			name = "Pods-HBSwiftMacro_Tests";
+			productName = "Pods-HBSwiftMacro_Tests";
+			productReference = A1EF5F884F575E7A9AF2DAB566A6EF3F /* Pods_HBSwiftMacro_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FF54315EE4853D7FFC0974C1573DD3A3 /* HBSwiftMacro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7770A22DABE0DB64894B01EE6C2CCADC /* Build configuration list for PBXNativeTarget "HBSwiftMacro" */;
+			buildPhases = (
+				D65195AF2F8E06BB07711987157B2B45 /* Headers */,
+				ABF0025A34524013AEF1BE4B8EBCFA31 /* Sources */,
+				174290D9661E87AD2CAD3A4DFA87D427 /* Frameworks */,
+				12852C525CAA569C37E7980B86B34A0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HBSwiftMacro;
+			productName = HBSwiftMacro;
+			productReference = A55AA407AB1B909F9550F8B890CEB159 /* HBSwiftMacro.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = FE94181FEC68D1C273462413E2C9210A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF54315EE4853D7FFC0974C1573DD3A3 /* HBSwiftMacro */,
+				636D65FC03C112EC690BC623D58D7B17 /* Pods-HBSwiftMacro_Example */,
+				73A05578EAAAEE2B67936E4817DA1DBF /* Pods-HBSwiftMacro_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12852C525CAA569C37E7980B86B34A0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51054119E0341EC0EAC085109EE71D3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B8B6E3F50C4D5C063638BBB71BF5F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9466EA3BB9ED21B00719FA8B60BD7CC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B44BB7A2245B973962BE6834E32A355B /* Pods-HBSwiftMacro_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF0025A34524013AEF1BE4B8EBCFA31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5FF85C9E012C905E89C0A04737D960A /* HBSwiftMacro-dummy.m in Sources */,
+				D01E75622372AA3F00569901 /* HBExtensions.swift in Sources */,
+				D01E75582372A26000569901 /* HBMacros.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F016A5297963BCE4CB4DEC5330415A43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FDCA9F8726CD9B2D3E7B56F7A44A26A /* Pods-HBSwiftMacro_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C5BE5B70EA5F0D8E6E62D08C1FA01CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HBSwiftMacro_Example";
+			target = 636D65FC03C112EC690BC623D58D7B17 /* Pods-HBSwiftMacro_Example */;
+			targetProxy = 994C7C7D06B30E6C8CE5470F0AD2C52A /* PBXContainerItemProxy */;
+		};
+		94889086194F394212615DD86D5EB2E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HBSwiftMacro;
+			target = FF54315EE4853D7FFC0974C1573DD3A3 /* HBSwiftMacro */;
+			targetProxy = 43D224AC278D138D02659BA136E25FC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5BE677FE55CE19B2742F0ADAB43E2276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFBE440FCD878795F58E2EAEC239BC08 /* Pods-HBSwiftMacro_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HBSwiftMacro_Example/Pods-HBSwiftMacro_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HBSwiftMacro_Example/Pods-HBSwiftMacro_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6B9933BBD93548E316728B28A6581774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FD97941EAF044BA44C6F253133A3986 /* Pods-HBSwiftMacro_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HBSwiftMacro_Tests/Pods-HBSwiftMacro_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HBSwiftMacro_Tests/Pods-HBSwiftMacro_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C2126DD57C2058A4C8A708BCB1D38318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B01F101C8F52D78D4368F4A00A747204 /* HBSwiftMacro.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HBSwiftMacro/HBSwiftMacro-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HBSwiftMacro/HBSwiftMacro-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HBSwiftMacro/HBSwiftMacro.modulemap";
+				PRODUCT_MODULE_NAME = HBSwiftMacro;
+				PRODUCT_NAME = HBSwiftMacro;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C2A306045F1E0F06D6B749BEE033703C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1632AD214233563C63B4FF06D4FE224B /* Pods-HBSwiftMacro_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HBSwiftMacro_Example/Pods-HBSwiftMacro_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HBSwiftMacro_Example/Pods-HBSwiftMacro_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D783502723DAF45BD948183F12E290CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B01F101C8F52D78D4368F4A00A747204 /* HBSwiftMacro.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HBSwiftMacro/HBSwiftMacro-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HBSwiftMacro/HBSwiftMacro-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HBSwiftMacro/HBSwiftMacro.modulemap";
+				PRODUCT_MODULE_NAME = HBSwiftMacro;
+				PRODUCT_NAME = HBSwiftMacro;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EFD9B397742239E0FEF4D55795CFD15D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5421D10D5C1A240DFD1DB40070544E8D /* Pods-HBSwiftMacro_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HBSwiftMacro_Tests/Pods-HBSwiftMacro_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HBSwiftMacro_Tests/Pods-HBSwiftMacro_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		735F247205FFAC7CED7597A3E6BE7025 /* Build configuration list for PBXNativeTarget "Pods-HBSwiftMacro_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD9B397742239E0FEF4D55795CFD15D /* Debug */,
+				6B9933BBD93548E316728B28A6581774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7770A22DABE0DB64894B01EE6C2CCADC /* Build configuration list for PBXNativeTarget "HBSwiftMacro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D783502723DAF45BD948183F12E290CC /* Debug */,
+				C2126DD57C2058A4C8A708BCB1D38318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDD6FD7895A45F2C71DB028694ABFD8C /* Build configuration list for PBXNativeTarget "Pods-HBSwiftMacro_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BE677FE55CE19B2742F0ADAB43E2276 /* Debug */,
+				C2A306045F1E0F06D6B749BEE033703C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
