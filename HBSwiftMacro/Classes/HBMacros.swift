@@ -13,20 +13,15 @@ public let kScreenWidth = UIScreen.main.bounds.size.width
 
 public let kScreenHeight = UIScreen.main.bounds.size.height
 
-public func iPhoneX() -> Bool {
-    guard #available(iOS 11.0, *) else {
-        return false
-    }    
-    return UIApplication.shared.windows[0].safeAreaInsets != UIEdgeInsets.zero
-}
+public let iPhoneX = kScreenWidth >= 812
 
-public let NAV_HEIGHT = iPhoneX() ? 88 : 64
+public let NAV_HEIGHT = iPhoneX ? 88 : 64
 
-public let STATUS_BAR_HEIGHT = iPhoneX() ? 44 : 20
+public let STATUS_BAR_HEIGHT = iPhoneX ? 44 : 20
 
-public let TABBAR_BAR_HEIGHT = iPhoneX() ? 83 : 49
+public let TABBAR_BAR_HEIGHT = iPhoneX ? 83 : 49
 
-public let HOME_INDICATOR_HEIGHT = iPhoneX() ? 34 : 0
+public let HOME_INDICATOR_HEIGHT = iPhoneX ? 34 : 0
 
 
 /* -------------- Color -------------- */

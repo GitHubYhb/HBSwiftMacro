@@ -47,7 +47,7 @@ public extension UIColor {
 }
 
 
-extension String {
+public extension String {
     
     /**
      Get the height with font.
@@ -70,7 +70,7 @@ extension String {
         
         return rect.size.height
     }
-   
+    
     
     /**
      Get the width with the string.
@@ -94,7 +94,7 @@ extension String {
     }
 }
 
-extension UIView {
+public extension UIView {
     var width:CGFloat {
         get {
             return self.frame.size.width
@@ -116,5 +116,45 @@ extension UIView {
         get {
             return self.frame.origin.y
         }
+    }
+    
+    var minY:CGFloat {
+        get {
+            return self.frame.minY
+        }
+    }
+    var midY:CGFloat {
+        get {
+            return self.frame.midY
+        }
+    }
+    var maxY:CGFloat {
+        get {
+            return self.frame.maxY
+        }
+    }
+    
+    var minX:CGFloat {
+        get {
+            return self.frame.minX
+        }
+    }
+    var midX:CGFloat {
+        get {
+            return self.frame.midX
+        }
+    }
+    var maxX:CGFloat {
+        get {
+            return self.frame.maxX
+        }
+    }
+}
+
+public extension String{
+    var toCGFloat:CGFloat{
+        let str = self as NSString
+        let double = str.doubleValue
+        return CGFloat.init(double)
     }
 }
