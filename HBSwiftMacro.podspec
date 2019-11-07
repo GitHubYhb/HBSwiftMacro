@@ -8,7 +8,11 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HBSwiftMacro'
+<<<<<<< HEAD
   s.version          = '0.1.5'
+=======
+  s.version          = '0.1.4'
+>>>>>>> d26ed6bf0396472eb82dca30bd9cd2e1280a68b9
   s.summary          = '自用Swift宏定义'
   s.swift_version    = '4.0'
 

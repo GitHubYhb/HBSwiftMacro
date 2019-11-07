@@ -151,10 +151,3 @@ public extension UIView {
     }
 }
 
-public extension String{
-    var toCGFloat:CGFloat{
-        let str = self as NSString
-        let double = str.doubleValue
-        return CGFloat.init(double)
-    }
-}
